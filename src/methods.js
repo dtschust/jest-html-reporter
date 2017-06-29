@@ -138,11 +138,11 @@ const createReport = ({ data, output } = {}) => {
  * Exports
  */
 module.exports = {
-	createReport,
-	createHtml,
-	getOutputFilepath,
-	getStylesheet,
-	logMessage
-	renderHTML,
-	writeFile,
+	createReport: createReport,
+	createHtml: createHtml,
+	getOutputFilepath: getOutputFilepath,
+	getStylesheet: getStylesheet,
+	logMessage: logMessage,
+	renderHTML: renderHTML,
+	writeFile: writeFile,
 };
